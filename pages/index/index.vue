@@ -77,8 +77,8 @@
 		align-items: center;
 		justify-content: center;
 		background: #333333;
-		padding: 0 68rpx;
-		padding-top: 130rpx ;
+		padding: 0 38rpx;
+		padding-top: 60rpx ;
 		padding-bottom: 20rpx;
 		box-sizing: border-box;
 	}

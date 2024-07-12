@@ -17,6 +17,7 @@ const baseRequest = async (url, method, data = {}, loading = true) =>{
 	const header = {}
 	header.token = getStorageSync('token') || ''
 	return new Promise((reslove, reject) => {
+		console.log('BASE_URL', BASE_URL)
 		// loading && uni.showLoading({title: 'loading'})
 		uni.request({
 			url: BASE_URL + url,
