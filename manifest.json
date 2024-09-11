@@ -71,7 +71,8 @@
     "vueVersion" : "2",
     "h5" : {
         "router" : {
-            "base" : "/company"
+            "base" : "/fansclub/company",
+            "mode" : "hash"
         }
     }
 }

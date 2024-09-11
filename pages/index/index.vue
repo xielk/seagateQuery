@@ -23,7 +23,11 @@
 						<text>授权类型：</text>
 						<text>{{ item.com_type }}</text>
 					</view>
-					<view class="result-nr" v-if="item.shop_name">
+					<view class="result-nr" v-if="item.channel">
+						<text>授权平台：</text>
+						<text>{{ item.channel }}</text>
+					</view>
+					<view class="result-nr" v-if="item.shop_name && item.shop_name.String">
 						<text>授权店铺：</text>
 						<text>{{ item.shop_name.String }}</text>
 					</view>
